@@ -38,6 +38,7 @@ const TodoApp = () => {
     const temp = todos.filter((item) => item.id !== id);
     setTodos(temp);
   }
+  
 
   return (
     <div className="todoContainer">

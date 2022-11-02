@@ -11,6 +11,7 @@ const Todo = ({ item, onUpdate, onDelete }) => {
       e.preventDefault();
     }
 
+    
     function handleChange(e) {
       const value = e.target.value;
       setNewValue(value);
@@ -35,15 +36,17 @@ const Todo = ({ item, onUpdate, onDelete }) => {
       </form>
     );
   }
-  
 
   function TodoElemet() {
     return (
       <div className="todoInfo">
-        <span className="todoTitle">  {item.title}</span>
-         <button className="button" onClick={() => setIsEdit(true)}>Edit</button>
-        <button className="buttonDelete" onClick={(e) => onDelete(item.id)}>Delete</button>
-      
+        <span className="todoTitle"> {item.title}</span>
+        <button className="button" onClick={() => setIsEdit(true)}>
+          Edit
+        </button>
+        <button className="buttonDelete" onClick={(e) => onDelete(item.id)}>
+          Delete
+        </button>
       </div>
     );
   }
