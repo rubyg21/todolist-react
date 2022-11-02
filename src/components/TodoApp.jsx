@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import Todo from "./Todo";
-import './TodoApp.css'
+import "./TodoApp.css";
 
 const TodoApp = () => {
   const [title, setTitle] = useState("");
@@ -38,7 +38,6 @@ const TodoApp = () => {
     const temp = todos.filter((item) => item.id !== id);
     setTodos(temp);
   }
-  
 
   return (
     <div className="todoContainer">
@@ -59,10 +58,7 @@ const TodoApp = () => {
             item={item}
             onUpdate={hadleUpdate}
             onDelete={handleDelete}
-            
-          >
-          
-          </Todo>
+          ></Todo>
         ))}
       </div>
     </div>

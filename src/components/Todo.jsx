@@ -11,7 +11,6 @@ const Todo = ({ item, onUpdate, onDelete }) => {
       e.preventDefault();
     }
 
-    
     function handleChange(e) {
       const value = e.target.value;
       setNewValue(value);
