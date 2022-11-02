@@ -33,7 +33,6 @@
   gap: 5px;
   margin-top: 10px;
 }
-
 .todo {
   padding: 10px;
   background-color: white;
@@ -44,30 +43,30 @@
   font-size: 20px;
 }
 
-
 .todoUpdateForm,
 .todoInfo {
-    display: flex;
-    align-items: center;
-    gap: 5px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }
 
-.button{
-    border: none;
-    border-radius: 3px;
-    background-color: rgb(76, 122, 221);
-    color: white;
-    padding: 10px 20px;
+.button {
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(76, 122, 221);
+  color: white;
+  padding: 10px 20px;
 }
 
-.buttonDelete{
-    border: none;
-    border-radius: 3px;
-    background-color: rgb(169, 26, 26);
-    color: white;
-    padding: 10px 20px;
+
+.buttonDelete {
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(169, 26, 26);
+  color: white;
+  padding: 10px 20px;
 }
-.buttonCompleted{
+.buttonCompleted {
   border: none;
   border-radius: 3px;
   background-color: rgb(19, 163, 0);
